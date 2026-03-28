@@ -61,6 +61,6 @@ public class NeoForgeBlockAccess implements PlatformBlockAccess {
 
     @Override
     public boolean shouldOccludeFluid(Direction adjDirection, BlockState adjBlockState, FluidState fluid) {
-        return adjBlockState.shouldHideAdjacentFluidFace(adjDirection, fluid);
+        return adjBlockState.getFluidState().getType().isSame(fluid.getType());
     }
 }

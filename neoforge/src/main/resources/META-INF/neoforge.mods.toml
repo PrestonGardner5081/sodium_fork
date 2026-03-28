@@ -26,14 +26,14 @@ provides = ["indium"]
 [[dependencies.sodium]]
 modId = "minecraft"
 type = "required"
-versionRange = "1.21.1"
+versionRange = "1.21"
 ordering = "NONE"
 side = "CLIENT"
 
 [[dependencies.sodium]]
 modId = "neoforge"
 type = "required"
-versionRange = "[21.1.82,)"
+versionRange = "[21.0.0,)"
 ordering = "NONE"
 side = "CLIENT"
 
