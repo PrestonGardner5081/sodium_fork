@@ -147,10 +147,10 @@ tasks.named("compileTestJava").configure {
 dependencies {
     compileOnly(project.project(":common").sourceSets.main.get().output)
     compileOnly(project.project(":common").sourceSets.getByName("api").output)
-    includeDep("org.sinytra.forgified-fabric-api:fabric-api-base:0.4.42+d1308ded19")
-    includeDep("org.sinytra.forgified-fabric-api:fabric-renderer-api-v1:3.4.0+acb05a3919")
-    includeDep("org.sinytra.forgified-fabric-api:fabric-rendering-data-attachment-v1:0.3.48+73761d2e19")
-    includeDep("org.sinytra.forgified-fabric-api:fabric-block-view-api-v2:1.0.10+9afaaf8c19")
+    includeDep("org.sinytra.forgified-fabric-api:fabric-api-base:0.4.42+d1308dedd1")
+    includeDep("org.sinytra.forgified-fabric-api:fabric-renderer-api-v1:3.4.0+acb05a39d1")
+    includeDep("org.sinytra.forgified-fabric-api:fabric-rendering-data-attachment-v1:0.3.48+73761d2ed1")
+    includeDep("org.sinytra.forgified-fabric-api:fabric-block-view-api-v2:1.0.10+9afaaf8cd1")
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
